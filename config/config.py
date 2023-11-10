@@ -23,7 +23,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 
 UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/Shalini77986/shalininewbot")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
-GIT_TOKEN = getenv("GIT_TOKEN", None)
+GIT_TOKEN = getenv("GIT_TOKEN", "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")
 
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ShaliniMusicBotSh")
 SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/music_world_sh")
