@@ -6,7 +6,7 @@ SETTINGS_COMMAND : ["settings", "setting"]
 RELOAD_COMMAND : ["admincache", "reload"]
 GSTATS_COMMAND : ["gstats", "globalstats"]
 STATS_COMMAND : ["stats"]
-LANGUAGE_COMMAND : ["lundlang", "lavdalele", "langlund"]
+LANGUAGE_COMMAND : ["lundlang", "language", "langlund"]
 SHAYARI_COMMAND : ["shayari", "dil", "love", "gf", "bf", "aaru"]
 DIL_COMMAND : ["dil", "funny", "feelings"]
 
