@@ -27,7 +27,7 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
             InlineKeyboardButton(
                 text="💖 𝗠𝘂𝘀𝗶𝗰 𝗟𝗼𝘃𝗲𝗿𝘀  💖", url=f"https://t.me/music_world_sh"),
             InlineKeyboardButton(
-                text="🚩ᴜᴘᴅᴀᴛᴇs🚩", url=f"https://t.me/ShaliniMusicBotSh"
+                text="ᴍʏ ʙᴇꜱᴛ 💖", url=f"https://t.me/Bhoomika_Bhumika"
             ),
         ],
         [
@@ -45,7 +45,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text="👁️‍🗨️➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴩ➕ 👁️‍🗨️",
+                text="👁️‍🗨️➕ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴩ➕ 👁️‍🗨️",
                 url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
             ),
         ],
@@ -58,7 +58,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
             InlineKeyboardButton(
                 text="💖 𝗠𝘂𝘀𝗶𝗰 𝗟𝗼𝘃𝗲𝗿𝘀 💖", url=f"https://t.me/music_world_sh"),
             InlineKeyboardButton(
-                text="🚩ᴜᴘᴅᴀᴛᴇs🚩", url=f"https://t.me/ShaliniMusicBotSh"
+                text="🥰 ᴍʏ ʙᴇꜱᴛ 🥰", url=f"https://t.me/Bhoomika_Bhumika"
             ),
         ],
         [
