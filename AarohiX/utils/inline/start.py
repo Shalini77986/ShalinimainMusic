@@ -10,13 +10,13 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text="👁️‍🗨️➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴩ➕ 👁️‍🗨️",
+                text="➕ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴩ➕",
                 url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
             )
         ],
         [
             InlineKeyboardButton(
-                text="👁️‍🗨️ʜᴇʟᴩ👁️‍🗨️",
+                text="🔆ʜᴇʟᴩ🔆",
                 callback_data="settings_back_helper",
             ),
             InlineKeyboardButton(
@@ -25,16 +25,16 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [
             InlineKeyboardButton(
-                text="💖 𝗠𝘂𝘀𝗶𝗰 𝗟𝗼𝘃𝗲𝗿𝘀  💖", url=f"https://t.me/music_world_sh"),
+                text="♻️ Mᴜsɪᴄ Wᴏʀʟᴅ ♻️", url=f"https://t.me/MUSIC_WORLD_SH"),
             InlineKeyboardButton(
-                text="ᴍʏ ʙᴇꜱᴛ 💖", url=f"https://t.me/Bhoomika_Bhumika"
+                text="🌐ᴜᴘᴅᴀᴛᴇs🌐", url=f"https://t.me/ShaliniMusicBotSh"
             ),
         ],
         [
             InlineKeyboardButton(
-                text="💝𝚘𝚠𝚗𝚎𝚛💝", user_id=OWNER),
+                text="💞ᴍᴀɪɴᴛᴀɪɴᴇʀ💞", user_id=OWNER),
             InlineKeyboardButton(
-                text="🥰sᴜᴩᴩᴏʀᴛ🥰", url=config.SUPPORT_GROUP
+                text="✨sᴜᴩᴩᴏʀᴛ✨", url=config.SUPPORT_GROUP
             ),
         ],
      ]
@@ -45,31 +45,31 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text="👁️‍🗨️➕ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴩ➕ 👁️‍🗨️",
+                text="➕ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴩ➕",
                 url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
             ),
         ],
         [
             InlineKeyboardButton(
-                text="🥺ʜᴇʟᴩ🥺", callback_data="settings_back_helper"
+                text="✨ʜᴇʟᴩ✨", callback_data="settings_back_helper"
             ),
         ],
         [
             InlineKeyboardButton(
-                text="💖 𝗠𝘂𝘀𝗶𝗰 𝗟𝗼𝘃𝗲𝗿𝘀 💖", url=f"https://t.me/music_world_sh"),
+                text="♻️ Mᴜsɪᴄ Wᴏʀʟᴅ ♻️", url=f"https://t.me/MUSIC_WORLD_SH"),
             InlineKeyboardButton(
-                text="🥰 ᴍʏ ʙᴇꜱᴛ 🥰", url=f"https://t.me/Bhoomika_Bhumika"
+                text="🌐ᴜᴘᴅᴀᴛᴇs🌐", url=f"https://t.me/ShaliniMusicBotSh"
             ),
         ],
         [
-            InlineKeyboardButton(text="💝𝚘𝚠𝚗𝚎𝚛💝", user_id=OWNER),
+            InlineKeyboardButton(text="💞ᴍᴀɪɴᴛᴀɪɴᴇʀ💞", user_id=OWNER),
             InlineKeyboardButton(
-                text="🥰sᴜᴩᴩᴏʀᴛ🥰", url=config.SUPPORT_GROUP
+                text="🔸sᴜᴩᴩᴏʀᴛ🔹", url=config.SUPPORT_GROUP
             ),
         ],
         [
             InlineKeyboardButton(
-                    text="👁️‍🗨️𝚁𝚎𝚙𝚘👁️‍🗨️", url=f"https://telegra.ph/file/440427330b7871341f2cf.mp4"
+                    text="🔎 ᴏᴡɴᴇʀ 🔍", url=f"https://t.me/Heart_heker_69"
                 )
         ],
      ]
