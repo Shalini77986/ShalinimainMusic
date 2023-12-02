@@ -1,13 +1,32 @@
+import asyncio
 from pyrogram import filters
 from pyrogram.types import Message
+from pyrogram.types import (InlineKeyboardButton,
+                            InlineKeyboardMarkup, Message)
+import config
+from config import BANNED_USERS
+from config import OWNER_ID
+from AarohiX import app
+from strings import get_string
+from AarohiX.utils.inline import start_pannel
+from AarohiX.utils.decorators.language import LanguageStart
 
-from .. import app
+@app.on_message(
+    filters.command("start"))
+    & filters.private
+    & ~filters.edited
+    & ~BANNED_USERS
+)
 
-
-
-@app.on_message(filters.command("start") & filters.private & filters.incoming)
-async def f_start(_, message: Message):
-    await message.reply_text(
-        text=f"Hello This is {message.from_user.first_name},\n\n๏ \nTelegram Group Calls Streaming bot with some useful features, written in Python with Pyrogram and Py-Tgcalls. Supporting platforms like Youtube, Spotify, Resso, AppleMusic, Soundcloud and M3u8 Links.",
-        
-    )
+@LanguageStart
+async def testbot(client, message: Message, _):
+    OWNER = OWNER_ID[0]
+    out = start_pannel(_, app.username, OWNER)
+    await message.reply_sticker("CAACAgUAAxkBAAEK0m5lY2Isl01ccCwHjdWpxMJ-_y2yvwACnwgAAivsiVVkOxHqpEe-GjME")   
+    return await message.reply_photo(
+               photo=config.START_IMG_URL,
+               caption=_["start_1"].format(
+            message.chat.title, config.MUSIC_BOT_NAME
+        ),
+        reply_markup=InlineKeyboardMarkup(out),
+)
