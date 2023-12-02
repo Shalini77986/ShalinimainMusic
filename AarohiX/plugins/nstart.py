@@ -28,9 +28,21 @@ async def str(client, message: Message, _):
             [
                 [
                     InlineKeyboardButton(
-                        "★ Add Me ★", url=f"https://t.me/ANNIE_BOT?startgroup=true")
+                        "★ Add Me ★", url=f"https://t.me/Shalinixmusicbot?startgroup=true")
+                ],
+                [
+                     InlineKeyboardButton(
+                        "ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅs", url=f"https://t.me/Shalinixmusicbot?start=help")
+                ],
+                [
+                    InlineKeyboardButton(
+                        "ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/ShaliniMusicBotSh"),
+                    InlineKeyboardButton(
+                        "sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/music_world_sh"),
+                ],    
+                [
+                     InlineKeyboardButton(
+                      "💞ᴍᴀɪɴᴛᴀɪɴᴇʀ💞", url=f"https://t.me/shalini_shalu_69")
                 ]
-                
-           ]
         ),
 )
