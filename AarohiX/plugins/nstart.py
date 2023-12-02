@@ -44,5 +44,6 @@ async def str(client, message: Message, _):
                      InlineKeyboardButton(
                       "💞ᴍᴀɪɴᴛᴀɪɴᴇʀ💞", url=f"https://t.me/shalini_shalu_69")
                 ]
+            ],
         ),
 )
