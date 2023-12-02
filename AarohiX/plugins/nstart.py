@@ -16,7 +16,6 @@ from AarohiX.utils.decorators.language import LanguageStart
     & filters.private
     & ~filters.edited
     & ~BANNED_USERS
-)
 
 @LanguageStart
 async def str(client, message: Message, _):    
