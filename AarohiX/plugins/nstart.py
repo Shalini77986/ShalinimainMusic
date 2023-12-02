@@ -12,7 +12,7 @@ from AarohiX.utils.inline import start_pannel
 from AarohiX.utils.decorators.language import LanguageStart
 
 @app.on_message(
-    filters.command("start"))
+    filters.command(("start"))
     & filters.private
     & ~filters.edited
     & ~BANNED_USERS
@@ -29,4 +29,4 @@ async def testbot(client, message: Message, _):
             message.chat.title, config.MUSIC_BOT_NAME
         ),
         reply_markup=InlineKeyboardMarkup(out),
-)
+    )
