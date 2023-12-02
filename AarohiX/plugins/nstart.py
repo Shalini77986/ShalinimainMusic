@@ -12,21 +12,27 @@ from AarohiX.utils.inline import start_pannel
 from AarohiX.utils.decorators.language import LanguageStart
 
 @app.on_message(
-    filters.command(("start"))
+    filters.command("start"))
     & filters.private
     & ~filters.edited
     & ~BANNED_USERS
 )
 
 @LanguageStart
-async def testbot(client, message: Message, _):
-    OWNER = OWNER_ID[0]
-    out = start_pannel(_, app.username, OWNER)
+async def str(client, message: Message, _):    
     await message.reply_sticker("CAACAgUAAxkBAAEK0m5lY2Isl01ccCwHjdWpxMJ-_y2yvwACnwgAAivsiVVkOxHqpEe-GjME")   
     return await message.reply_photo(
                photo=config.START_IMG_URL,
                caption=_["start_1"].format(
             message.chat.title, config.MUSIC_BOT_NAME
         ),
-        reply_markup=InlineKeyboardMarkup(out),
-    )
+        reply_markup=InlineKeyboardMarkup(
+            [
+                [
+                    InlineKeyboardButton(
+                        "★ Add Me ★", url=f"https://t.me/Shalinixmusicbot?startgroup=true")
+                ]
+                
+           ]
+        ),
+)
