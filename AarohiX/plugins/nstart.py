@@ -12,7 +12,7 @@ from AarohiX.utils.inline import start_pannel
 from AarohiX.utils.decorators.language import LanguageStart
 
 @app.on_message(
-    filters.command(("start"))
+    filters.command("start"))
    
 
 
