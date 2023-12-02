@@ -14,7 +14,7 @@ from AarohiX.utils.decorators.language import LanguageStart
 @app.on_message(
     filters.command(("start"))
    
-)
+
 
 @LanguageStart
 async def str(client, message: Message, _):    
