@@ -32,7 +32,7 @@ async def str(client, message: Message, _):
                 ],
                 [
                      InlineKeyboardButton(
-                        "ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅs", url=f"https://t.me/Shalinixmusicbot?start=help")
+                        "ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅs", callback_data="settings_back_helper")
                 ],
                 [
                     InlineKeyboardButton(
