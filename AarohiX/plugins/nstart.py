@@ -23,7 +23,7 @@ async def str(client, message: Message, _):
     await message.reply_sticker("CAACAgUAAxkBAAEK0m5lY2Isl01ccCwHjdWpxMJ-_y2yvwACnwgAAivsiVVkOxHqpEe-GjME")   
     return await message.reply_photo(
                photo=config.START_IMG_URL,
-               caption=_["_start_2"].format(
+               caption=_["_start_3"].format(
             message.chat.title, config.MUSIC_BOT_NAME
         ),
         reply_markup=InlineKeyboardMarkup(
