@@ -16,7 +16,7 @@ from AarohiX.utils.decorators.language import LanguageStart
     & filters.private
     & ~filters.edited
     & ~BANNED_USERS
-
+)
 @LanguageStart
 async def str(client, message: Message, _):    
     await message.reply_sticker("CAACAgUAAxkBAAEK0m5lY2Isl01ccCwHjdWpxMJ-_y2yvwACnwgAAivsiVVkOxHqpEe-GjME")   
