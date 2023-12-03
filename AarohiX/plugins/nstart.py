@@ -18,7 +18,7 @@ from AarohiX.utils.decorators.language import LanguageStart
 
 @LanguageStart
 async def str(client, message: Message, _):    
-    await message.reply_sticker("CAACAgUAAxkBAAEK0m5lY2Isl01ccCwHjdWpxMJ-_y2yvwACnwgAAivsiVVkOxHqpEe-GjME")   
+    await message.reply_sticker("CAACAgUAAxkBAAEK4YBla0Qv-cxfZ7DqNRXCpegSICxLPQAC0QgAAnKqiVWHVdzcCXlegzME")   
     return await message.reply_photo(
                photo=config.START_IMG_URL,
                caption=_["start_2"].format(
@@ -32,7 +32,7 @@ async def str(client, message: Message, _):
                 ],
                 [
                      InlineKeyboardButton(
-                        "ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅs", callback_data="settings_back_helper")
+                        "ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅs", callback_data="settings_helper")
                 ],
                 [
                     InlineKeyboardButton(
