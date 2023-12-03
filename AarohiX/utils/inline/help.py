@@ -18,7 +18,7 @@ def help_pannel(_, START: Union[bool, int] = None):
             url=f"https://t.me/shalini_shalu_69",
         ),
         InlineKeyboardButton(
-            text=_["ᴄʟᴏsᴇ"], callback_data=f"close"
+            text=_["CLOSEMENU_BUTTON"], callback_data=f"close",
         ),
     ]
     mark = second if START else first
