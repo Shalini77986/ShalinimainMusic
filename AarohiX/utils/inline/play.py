@@ -51,7 +51,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [
            InlineKeyboardButton(
-                text="💞ᴍᴀɪɴᴛᴀɪɴᴇʀ💞", url=f"https://t.me/Shalini_shalu_69",
+                text="💞ᴍᴀɪɴᴛᴀɪɴᴇʀ💞", url=f"tg://openmessage?user_id=6910477574",
             ),
            InlineKeyboardButton(
                 text="🔸ᴜᴘᴅᴀᴛᴇs🔸", url=f"https://t.me/ShaliniMusicBotSh",
@@ -104,7 +104,7 @@ def telegram_markup_timer(_, chat_id, played, dur):
         ],
         [
            InlineKeyboardButton(
-                text="💞ᴍᴀɪɴᴛᴀɪɴᴇʀ💞", url=f"https://t.me/Shalini_shalu_69",
+                text="💞ᴍᴀɪɴᴛᴀɪɴᴇʀ💞", url=f"tg://openmessage?user_id=6910477574",
             ),
            InlineKeyboardButton(
                 text="🔸ᴜᴘᴅᴀᴛᴇs🔸", url=f"https://t.me/ShaliniMusicBotSh",
@@ -150,7 +150,7 @@ def stream_markup(_, videoid, chat_id):
         ],
         [
            InlineKeyboardButton(
-                text="💞ᴍᴀɪɴᴛᴀɪɴᴇʀ💞", url=f"https://t.me/Shalini_shalu_69",
+                text="💞ᴍᴀɪɴᴛᴀɪɴᴇʀ💞", url=f"tg://openmessage?user_id=6910477574",
             ),
            InlineKeyboardButton(
                 text="🔸ᴜᴘᴅᴀᴛᴇs🔸", url=f"https://t.me/ShaliniMusicBotSh",
@@ -184,7 +184,7 @@ def telegram_markup(_, chat_id):
         ],
         [
            InlineKeyboardButton(
-                text="💞ᴍᴀɪɴᴛᴀɪɴᴇʀ💞", url=f"https://t.me/Shalini_shalu_69",
+                text="💞ᴍᴀɪɴᴛᴀɪɴᴇʀ💞", url=f"tg://openmessage?user_id=6910477574",
             ),
            InlineKeyboardButton(
                 text="🔸ᴜᴘᴅᴀᴛᴇs🔸", url=f"https://t.me/music_world_sh",
@@ -341,7 +341,7 @@ def queue_markup(_, videoid, chat_id):
         ],
         [
            InlineKeyboardButton(
-                text="💞ᴍᴀɪɴᴛᴀɪɴᴇʀ💞", url=f"https://t.me/Shalini_shalu_69",
+                text="💞ᴍᴀɪɴᴛᴀɪɴᴇʀ💞", url=f"tg://openmessage?user_id=6910477574",
             ),
            InlineKeyboardButton(
                 text="🔸ᴜᴘᴅᴀᴛᴇs🔸", url=f"https://t.me/ShaliniMusicBotSh",
