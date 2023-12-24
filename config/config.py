@@ -105,8 +105,7 @@ SPOTIFY_ALBUM_IMG_URL = "https://te.legra.ph/file/d07a54c7b2a910fad0472"
 
 SPOTIFY_PLAYLIST_IMG_URL = "https://te.legra.ph/file/d07a54c7b2a910fad0472"
 
-HELP_IMG_URL = 
-"https://telegra.ph/file/625b4f7a03ca1e84ba3d4.jpg"
+HELP_IMG_URL = "https://telegra.ph/file/625b4f7a03ca1e84ba3d4.jpg"
 
 def time_to_seconds(time):
     stringt = str(time)
