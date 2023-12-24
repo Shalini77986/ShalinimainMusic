@@ -233,9 +233,9 @@ stream_4 : "➻ **💞sᴛᴀʀᴛᴇᴅ sᴛʀᴇᴀᴍɪɴɢ ɴᴏᴡ💞**\n\
 # Inline Buttons
 
 #General Buttons
-CLOSE_BUTTON  : "🍁↻ᴄʟᴏsᴇ↻🍁"
-CLOSEMENU_BUTTON  : "🍁↻ᴄʟᴏsᴇ↻🍁"
-BACK_BUTTON : "◁"
+CLOSE_BUTTON  : "ᴄʟᴏsᴇ"
+CLOSEMENU_BUTTON  : "ᴄʟᴏsᴇ"
+BACK_BUTTON : "ʙᴀᴄᴋ"
 UNBAN_BUTTON : "🍁•ᴜɴʙᴀɴ•🍁"
 
 #Lyrics
