@@ -167,6 +167,7 @@ InlineKeyboardButton(
 
 def telegram_markup(_, chat_id):
     buttons = [
+    [
    InlineKeyboardButton(
                 text="ᴘᴀᴜꜱᴇ", callback_data=f"ADMIN Pause|{chat_id}"
             ),
