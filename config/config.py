@@ -78,6 +78,8 @@ autoclean = []
 
 START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/65a581bfa2c71771f934d.jpg")
 
+HELP_IMG_URL = getenv("HELP_IMG_URL", "https://telegra.ph/file/67297e4b6f0ab63494a37.jpg")
+
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
     "https://telegra.ph/file/d07a54c7b2a910fad0472.jpg",
@@ -104,8 +106,6 @@ SPOTIFY_ARTIST_IMG_URL = "https://te.legra.ph/file/d07a54c7b2a910fad0472"
 SPOTIFY_ALBUM_IMG_URL = "https://te.legra.ph/file/d07a54c7b2a910fad0472"
 
 SPOTIFY_PLAYLIST_IMG_URL = "https://te.legra.ph/file/d07a54c7b2a910fad0472"
-
-HELP_IMG_URL = "https://telegra.ph/file/625b4f7a03ca1e84ba3d4.jpg"
 
 def time_to_seconds(time):
     stringt = str(time)
