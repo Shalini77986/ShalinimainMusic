@@ -18,7 +18,7 @@ from AarohiX.utils.decorators.language import LanguageStart
 
 @LanguageStart
 async def str(client, message: Message, _):    
-    await message.reply_sticker("CAACAgUAAxkBAAEK4YBla0Qv-cxfZ7DqNRXCpegSICxLPQAC0QgAAnKqiVWHVdzcCXlegzME")   
+    await message.reply_sticker("CAACAgUAAxkBAAELB7NliA5Xv6ZJN31D1oFnqEXrlQ1IEwACIgsAAqBG4Vcv3cACMFdCBDME")   
     return await message.reply_photo(
                photo=config.START_IMG_URL,
                caption=_["start_2"].format(
