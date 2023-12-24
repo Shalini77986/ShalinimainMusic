@@ -61,7 +61,7 @@ async def helper_private(
         keyboard = help_pannel(_)
         await update.reply_sticker("CAACAgUAAxkBAAIjVmKPYTFByKZlCo9d8mUv8QVAJEw7AAL9BQACiy14VGoQxOCDfE1KJAQ")
         await update.reply_photo(
-            photo=config.START_IMG_URL,
+            photo=config.HELP_IMG_URL,
             caption=_["help_1"].format(config.SUPPORT_HEHE), reply_markup=keyboard)
 
 
@@ -75,7 +75,7 @@ async def helper_private(
 async def help_com_group(client, message: Message, _):
     keyboard = private_help_panel(_)
     await message.reply_photo(
-        photo=config.START_IMG_URL,
+        photo=config.HELP_IMG_URL,
         caption=_["help_2"], reply_markup=InlineKeyboardMarkup(keyboard)
     )
 
